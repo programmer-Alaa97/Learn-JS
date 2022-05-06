@@ -1,0 +1,73 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223 191 191);
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.form{
+   
+    background-color: rgb(7, 7, 7);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px ;
+    box-sizing: border-box;
+    box-shadow: 1px -2px 7px 0px;
+    border: 2px solid white;
+}
+
+.info{
+
+    padding: 0 0px 20px 40px;
+    font-weight: 700;
+    font-size: 29px;
+
+}
+
+.name-info{
+
+    padding: 0 40px 20px 40px;
+}
+
+.us-name{
+
+    width: 200px;
+    height: 30px;
+    border: 1px solid #dfbfbf;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.birth-info{
+
+    padding: 0 40px 20px 40px; 
+}
+
+.us-born{
+
+    width: 200px;
+    height: 30px;
+    border: 1px solid #dfbfbf;
+    border-radius: 4px;
+    margin-top: 10px;  
+}
+.submit{
+
+    width: 208px;
+    height: 30px;
+    margin: 0px 0px 0 38px;
+    background-color: #bd7b7b;
+    border: 1px solid #bd7b7b;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+
+}
