@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/my_style.css" >
+    <title>task4</title>
+    
+</head>
+<body>
+
+    <div class="form">
+    <div class="info">Information</div>
+        <div class="name-info">
+
+            <div><label for="name" class="placeholder">User Name</label></div>
+            <input type="text" id="name" class="us-name" placeholder="">
+            
+        </div>
+
+        <div class="birth-info">
+
+            <div><label for="born" class="placeholder">User Birth</label></div>
+            <input type="number" id="born" class="us-born" placeholder="">
+            
+        </div>
+
+        <button type="text" class="submit" onclick="myinfo()">submit</button>
+        <div class="result">
+            <h4 style="padding: 0 0 0 36px;">show All information</h4>
+             <span style="padding: 0 0 0 36px;">name:</span><span id="result1"></span>
+             <br>
+             <span style="padding: 0 0 0 36px;">birth:</span><span id="result2"></span>
+             <br>
+             <span style="padding: 0 0 0 36px;">age:</span><span id="result3"></span>
+        </div>
+
+    </div>
+
+<script src="./style/js/java.js"></script>
+</body>
+</html>
